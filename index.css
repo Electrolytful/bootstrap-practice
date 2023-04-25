@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.cat-card {
+    transition: all .4s ease;
+}
+
+.cat-card:hover {
+    transform: scale(1.15);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
